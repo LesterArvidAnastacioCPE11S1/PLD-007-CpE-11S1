@@ -7,7 +7,7 @@ int main(){
 	
 	while (A<=B){
 		cout << "Hello " << A << endl;
-		A=A+1
+		A=A+1;
 	}
 
 	return 0;
