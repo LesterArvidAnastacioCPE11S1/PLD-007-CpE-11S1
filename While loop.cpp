@@ -4,15 +4,11 @@ using namespace std;
 int main(){
 	int A;
 	int B=10;
-	int C=-10;
 	
-	for (A=0;A<=B;A++)
-	{
-		cout << "BITCH " << A << endl;
+	while (A<=B){
+		cout << "Hello " << A << endl;
+		A=A+1
 	}
-	for (A=0;A>=C;A--)
-	{
-		cout << "BITCH " << A << endl;
-	}
+
 	return 0;
 }
