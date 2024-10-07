@@ -2,21 +2,18 @@
 
 int main(void){
 	int counter = 0;
-	int grade,average;
 	int total = 0;
+	grade = float(input("Enter Grade: \n"));
+	sentinel = -1
 	
-	printf("Enter your Grade: \n");
-	scanf("%d", &grade);
-	
-	while (grade != -1){
+	while (grade != sentinel){
 		total += grade;
-		counter++;
-		
-		printf("Enter Grade: \n");
-		scanf("%d\n",&grade);
+		counter += 1
+
+		grade = float(input("Enter a grade: \n"));
 	}
 	if(counter != 0){
-		average = (float)total/counter;
+		average = total/counter;
 		printf("Class Average is: %f\n");
 	}
 	else {
