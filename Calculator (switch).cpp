@@ -21,6 +21,7 @@ int main(){
 	
 	switch(op){
 		case 'A':
+		case 'a':
 			cout << "Please Enter First Number: "<< endl;
 			cin >> value1;
 			cout << "Please Enter Second Number"<< endl;
@@ -29,6 +30,7 @@ int main(){
 			cout << "The answer is.. :" << sum << endl;
 			break;
 		case 'B':
+		case 'b':
 			cout << "Please Enter First Number: "<< endl;
 			cin >> value1;
 			cout << "Please Enter Second Number"<< endl;
@@ -37,6 +39,7 @@ int main(){
 			cout << "The answer is.. :" << sum << endl;
 			break;
 		case 'C':
+		case 'c':
 			cout << "Please Enter First Number: "<< endl;
 			cin >> value1;
 			cout << "Please Enter Second Number"<< endl;
@@ -45,6 +48,7 @@ int main(){
 			cout << "The answer is.. :" << sum << endl;
 			break;
 		case 'D':
+		case 'd':
 			cout << "Please Enter First Number: "<< endl;
 			cin >> value1;
 			cout << "Please Enter Second Number"<< endl;
