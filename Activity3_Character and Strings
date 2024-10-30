@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char str1[100] /*str2[100], str3[100], str4[100]*/;
+    int total;
+
+    puts("Enter Strings:");
+	
+    fgets(str1, sizeof(str1), stdin);
+    /*fgets(str2, sizeof(str2), stdin);
+    fgets(str3, sizeof(str3), stdin);
+    fgets(str4, sizeof(str4), stdin);*/
+    
+    for (int i = 0; str1[i] != '\0'; i++) {
+        total += (int)str1[i];
+    }/*
+    for (int i = 0; str2[i] != '\0'; i++) {
+        total += (int)str2[i];
+    }
+    for (int i = 0; str3[i] != '\0'; i++) {
+        total += (int)str3[i];
+    }
+    for (int i = 0; str4[i] != '\0'; i++) {
+        total += (int)str4[i];
+    }
+*/
+    printf("The total of the 4 strings is: %d\n", total);
+
+    return 0;
+}
