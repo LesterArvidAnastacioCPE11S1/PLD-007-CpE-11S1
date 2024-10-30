@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main (){
+	char inputChar;
+	
+	printf("Letter: ");
+	scanf("%c", &inputChar);
+	
+	 printf("According to islower: %c %s %s\n",inputChar,islower(inputChar) ? "is a" : "is not a", "lowercase letter");
+     printf("According to isupper: %c %s %s\n", inputChar,isupper(inputChar) ? "is a" : "is not a", "Uppercase letter");
+	 printf("Converting %c to lowercase: %c\n", inputChar, tolower(inputChar));
+     printf("Converting %c to uppercase: %c\n", inputChar, toupper(inputChar));
+ 	 printf("According to isblank: %c %s\n", inputChar, isblank(inputChar) ? "is a blank character" : "is not a blank character");
+     printf("According to isdigit: %c %s\n", inputChar,isdigit(inputChar) ? "is a digit" : "is not a digit");
+     printf("According to isalpha: %c %s\n", inputChar, isalpha(inputChar) ? "is a letter" : "is not a letter");
+     printf("According to isalnum: %c %s\n", inputChar,isalnum(inputChar) ? "is alphanumeric" : "is not alphanumeric");
+     printf("According to isxdigit: %c %s\n", inputChar,isxdigit(inputChar) ? "is a hexadecimal digit" : "is not a hexadecimal digit");
+     printf("According to isspace: %c %s\n", inputChar, isspace(inputChar) ? "is a whitespace character" : "is not a whitespace character");
+     printf("According to isgraph: %c %s\n", inputChar, isgraph(inputChar) ? "is a printing character" : "is not a printing character");
+     printf("According to iscntrl: %c %s\n", inputChar, iscntrl(inputChar) ? "is a control character" : "is not a control character");
+     printf("According to isprint: %c %s\n", inputChar, isprint(inputChar) ? "is a printable character" : "is not a printable character");
+     printf("According to ispunct: %c %s\n", inputChar, ispunct(inputChar) ? "is punctuation" : "is not punctuation");
+		
+	return 0;
+}
